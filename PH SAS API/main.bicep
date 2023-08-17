@@ -1,11 +1,6 @@
 // Region for all resources
 param location string = resourceGroup().location
 
-@secure()
-param aadUsername string
-@secure()
-param aadSid string
-
 // Variables
 var hostingPlanName = 'asp-jrghkmid-prd-001'
 var webSiteName = 'azapp-SASapi-prd-001'
